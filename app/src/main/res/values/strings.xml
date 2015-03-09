@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_period">.</string>
+    <string name="btn_zero">0</string>
+    <string name="btn_equals">=</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_one">1</string>
+    <string name="btn_two">2</string>
+    <string name="btn_three">3</string>
+    <string name="btn_minus">-</string>
+    <string name="btn_four">4</string>
+    <string name="btn_five">5</string>
+    <string name="btn_six">6</string>
+    <string name="btn_multiply">×</string>
+    <string name="btn_seven">7</string>
+    <string name="btn_eight">8</string>
+    <string name="btn_nine">9</string>
+    <string name="btn_divide">÷</string>
+    <string name="buffer_default">0</string>
+    <string name="btn_sign">±</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_allclear">A/C</string>
+</resources>
