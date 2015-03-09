@@ -67,7 +67,7 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public boolean onNumberClick(View v) {
+    public void onNumberClick(View v) {
         Button btn = (Button) v;
         Integer value = Integer.parseInt(btn.getText().toString());
 
@@ -77,8 +77,6 @@ public class MainActivity extends Activity {
         } else {
             appendBufferText(value);
         }
-
-        return true;
     }
 
     public void onPeriodClick(View v) {
