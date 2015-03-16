@@ -212,4 +212,5 @@
         android:background="@android:drawable/btn_default"
         android:onClick="onClear"
         android:layout_alignParentEnd="false" />
+
 </RelativeLayout>

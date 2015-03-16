@@ -24,7 +24,6 @@ public class MainActivity extends Activity {
     public MainActivity() {
         super();
         nextOperand = true;
-        df = new DecimalFormat("@###########");
     }
 
     @Override
@@ -32,6 +31,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        df = new DecimalFormat(getString(R.string.decimal_format));
         buffer = (TextView) findViewById(R.id.buffer);
         bufferDefault = getResources().getString(R.string.buffer_default);
         activeOperator = getResources().getDrawable(R.drawable.active_operator);
